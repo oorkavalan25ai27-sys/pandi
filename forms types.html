@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form action="submit.php" method="post">
+        
+        <!-- Text Input -->
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" placeholder="Enter your name"><br><br>
+
+        <!-- Email Input -->
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Enter your email"><br><br>
+
+        <!-- Password -->
+        <label>Password:</label><br>
+        <input type="password" name="password"><br><br>
+
+        <!-- Radio Button -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+
+        <!-- Checkbox -->
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skill" value="HTML"> HTML
+        <input type="checkbox" name="skill" value="CSS"> CSS
+        <input type="checkbox" name="skill" value="JavaScript"> JavaScript<br><br>
+
+        <!-- Dropdown -->
+        <label>Course:</label><br>
+        <select name="course">
+            <option value="BCA">BCA</option>
+            <option value="BSC">BSC</option>
+            <option value="BTECH">BTECH</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="30"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
